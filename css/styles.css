@@ -1,0 +1,41 @@
+/* styles.css */
+
+/* Add your custom styles here */
+
+/* Example styles for floating placeholders */
+.form-control {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .form-control label {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    color: #666;
+    pointer-events: none;
+    transition: 0.3s ease all;
+  }
+  
+  .form-control input,
+  .form-control textarea {
+    padding: 10px 15px;
+    width: 100%;
+    border: 1px solid #ccc;
+  }
+  
+  .form-control input:focus,
+  .form-control textarea:focus {
+    outline: none;
+    border: 1px solid #3498db;
+  }
+  
+  .form-control input:focus + label,
+  .form-control textarea:focus + label,
+  .form-control input:valid + label,
+  .form-control textarea:valid + label {
+    font-size: 12px;
+    top: -5px;
+    color: #3498db;
+  }
+  

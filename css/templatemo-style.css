@@ -3,6 +3,87 @@ Awesome Template
 http://www.templatemo.com/preview/templatemo_450_awesome
 */
 
+body {
+    background: #303030;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    overflow-x: hidden;
+}
+
+a {
+    color: #47C6F8;
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    color: #0FF;
+}
+
+/* Neon effect */
+.neon-text {
+    text-shadow: 0 0 10px #28a7e9, 0 0 20px #28a7e9, 0 0 30px #28a7e9;
+}
+
+/* ... (other existing styles) ... */
+
+/* Navigation */
+.navbar-default {
+    background: #fff;
+    border: none;
+    box-shadow: none;
+    margin: 0 !important;
+}
+
+/* ... (other existing styles) ... */
+
+/* Home */
+#home {
+    background: url('../images/home-bg.jpg') no-repeat;
+    background-size: cover;
+    padding-top: 160px;
+    padding-bottom: 100px;
+    min-height: 650px;
+}
+
+#home h1 {
+    font-weight: 300;
+    font-size: 70px;
+    padding-bottom: 10px;
+    text-align: center; /* Center the text */
+}
+
+#home h1 span {
+    color: #28a7e9;
+    font-weight: bold;
+}
+
+#home .btn {
+    background: transparent;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    width: 180px;
+    height: 60px;
+    padding-top: 18px;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+#home .btn:hover {
+    background: #28a7e9;
+    border-color: transparent;
+}
+
+.element {
+    height: 60px;
+    font-size: 16px;
+}
+
+/* ... (other existing styles) ... */
+
 body
 	{
  		background: #303030;
